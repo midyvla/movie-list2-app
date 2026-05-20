@@ -8,7 +8,7 @@ import MovieRatingCounter from './MovieRatingCounter.jsx'; // Ingest our structu
 import StateBatchingLab from './StateBatchingLab.jsx'; // Ingest our structural layout wrapper
 import MovieManagerBoard from './MovieManagerBoard.jsx'; // Ingest our structural layout wrapper
 import RatingArena from './RatingArena.jsx'; // Ingest our structural layout wrapper
-
+import WatchlistManager from './WatchlistManager.jsx'; // Ingest our structural layout wrapper
 
 
 function App() {
@@ -33,6 +33,7 @@ function App() {
             <StateBatchingLab />
             <MovieManagerBoard />
             <RatingArena />
+            <WatchlistManager />
         </div>
     );
 }
