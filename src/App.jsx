@@ -9,7 +9,7 @@ import StateBatchingLab from './StateBatchingLab.jsx'; // Ingest our structural 
 import MovieManagerBoard from './MovieManagerBoard.jsx'; // Ingest our structural layout wrapper
 import RatingArena from './RatingArena.jsx'; // Ingest our structural layout wrapper
 import WatchlistManager from './WatchlistManager.jsx'; // Ingest our structural layout wrapper
-
+import MovieSearchDashboard from './MovieSearchDashboard.jsx'; // Ingest our structural layout wrapper
 
 function App() {
     return (
@@ -34,6 +34,7 @@ function App() {
             <MovieManagerBoard />
             <RatingArena />
             <WatchlistManager />
+            <MovieSearchDashboard />
         </div>
     );
 }
